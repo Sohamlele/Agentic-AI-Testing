@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/.venv/
+.venv/
+venv/
+
+# Env
+.env
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# Build / runtime
+frontend/.next/
+frontend/out/
+backend/testagent.db
+backend/__pycache__/
+backend/**/__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+*.log
